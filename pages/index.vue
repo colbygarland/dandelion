@@ -26,7 +26,7 @@
 
                 <div class="py-2">
                     <label class="block text-gray-700 text-sm font-bold mb-2">Email</label>
-                    <input type="email" name="email" required="required" autofocus="autofocus" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" autocomplete="off">
+                    <input type="email" name="email" required="required" autofocus="autofocus" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline">
                 </div>
                 <div class="py-2">
                     <button type="submit" class="px-8 py-2 bg-orange-400 text-white hover:bg-orange-500 font-bold rounded-lg ease-in-out duration-500 focus:outline-none">Submit</button>
