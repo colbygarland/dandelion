@@ -4,6 +4,9 @@
     {{ HEAD }}
 </head>
 <body {{ BODY_ATTRS }} class="font-body">
+<form name="emailsignup" netlify netlify-honeypot="bot-field" hidden>
+    <input name="email" type="email" />
+</form>
 {{ APP }}
 </body>
 </html>

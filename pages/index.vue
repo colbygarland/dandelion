@@ -18,7 +18,8 @@
         </div>
         <div class="container ml-auto mr-auto px-4 lg:px-16 mb-6 lg:mb-20">
             <p class="mb-3 text-center">The first 100 people to submit their email will be entered for a chance to win 6 months subscription to Dandelion on the Prairie!</p>
-            <form netlify netlify-honeypot="bot-field" class="lg:max-w-lg lg:ml-auto lg:mr-auto">
+            <form name="emailsignup" netlify netlify-honeypot="bot-field" class="lg:max-w-lg lg:ml-auto lg:mr-auto" action="/thanks" method="post">
+                <input type="hidden" name="form-name" value="emailsignup" />
                 <p class="hidden">
                     <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
                 </p>
