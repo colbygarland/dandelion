@@ -1,4 +1,5 @@
 # dandelion
+[![Netlify Status](https://api.netlify.com/api/v1/badges/bf757e9b-049d-43d0-ba01-ca70418234f0/deploy-status)](https://app.netlify.com/sites/dandelionontheprairie/deploys)
 
 ## Build Setup
 
