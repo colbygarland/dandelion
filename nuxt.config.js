@@ -1,4 +1,3 @@
-import ogImage from "~/assets/images/social-share.jpg";
 
 export default {
     env: {
@@ -24,10 +23,6 @@ export default {
             {charset: 'utf-8'},
             {name: 'viewport', content: 'width=device-width, initial-scale=1'},
             {name: 'description', content: process.env.npm_package_description || 'Dandelion on the Prairie is a company that curates Canadian made and sustainably sourced products. Here we believe that that we should support other Canadian companies who also have the same views.'},
-            {
-                name: 'og:image',
-                content: process.env.baseUrl + ogImage
-            }
         ],
         link: [
             {rel: 'icon', type: 'image/x-icon', href: '/favicon.ico'},
