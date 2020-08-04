@@ -3,10 +3,10 @@
 
         <a href="#sign-up" class="text-white font-bold bg-primary py-3 block text-center hover:bg-secondary">Sign up now!</a>
 
-        <header class="py-40 text-center bg-cover shadow" :style="{ backgroundImage: `url(${backgroundUrl})` }">
+        <header class="py-40 lg:py-64 text-center bg-cover shadow bg-no-repeat bg-center" :style="{ backgroundImage: `url(${dandelion})` }">
             <h1 class="text-white">
-                <span class="font-script text-6xl block lg:text-6xl">Dandelion</span>
-                <span class="text-4xl lg:text-5xl">on the Prairie</span>
+                <span class="font-script text-8xl block lg:text-10xl">Dandelion</span>
+                <span class="text-4xl lg:text-6xl">on the Prairie</span>
             </h1>
         </header>
 
@@ -42,7 +42,7 @@
         </div>
 
         <div class="container ml-auto mr-auto px-4 lg:px-16 mb-6 lg:mb-20" id="sign-up">
-            <p class="mb-3 text-center text-xl font-bold">The first 100 people to submit their email will be entered for a chance to win 6 months subscription to Dandelion on the Prairie!</p>
+            <p class="mb-3 text-center text-xl">The first 100 people to submit their email will be entered for a chance to win 6 months subscription to Dandelion on the Prairie!</p>
             <!-- Begin Mailchimp Signup Form -->
             <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
 
@@ -102,6 +102,8 @@
     import backgroundUrl from '~/assets/images/dandelion.jpg';
     import field from '~/assets/images/field.jpg';
     import brittany from '~/assets/images/brittany.jpg';
+    import dandelion from '~/assets/images/dandelion2.jpg';
+    import ogImage from '~/assets/images/social-share.jpg';
 
     export default {
         data() {
@@ -109,7 +111,25 @@
                 backgroundUrl,
                 field,
                 brittany,
+                dandelion,
             }
-        }
+        },
+        head() {
+            return {
+                title: 'Dandelion on the Prairie',
+                meta: [
+                    {
+                        hid: 'description',
+                        name: 'description',
+                        content: 'Dandelion on the Prairie is a company that curates Canadian made and sustainably sourced products. Here we believe that that we should support other Canadian companies who also have the same views.'
+                    },
+                    {
+                        hid: 'og:image',
+                        name: 'og:image',
+                        content: process.env.baseUrl + ogImage
+                    }
+                ]
+            }
+        },
     }
 </script>
