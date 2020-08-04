@@ -12,7 +12,7 @@
 
         <div class="px-4 lg:px-16 py-10 lg:py-20">
             <div class="container mx-auto">
-                <h2 class="text-2xl lg:text-4xl mb-6 inline-block border-b-2"><strong class="text-primary">Canadian Made</strong> Subscription Boxes</h2>
+                <h2 class="text-lg lg:text-4xl mb-6 inline-block border-b-2"><strong class="text-primary">Canadian Made</strong> Subscription Boxes</h2>
                 <p class="mb-3 leading-loose">Canada needs its own subscription box, and it needs to be filled with Canadian made, sustainably developed products.</p>
                 <p class="text-xl font-bold text-primary mb-3">Meet Dandelion on the Prairie.</p>
                 <p class="mb-6 leading-loose">Created by Brittany Dolen, Dandelion on the Prairie is a monthly, carefully curated subscription box. Each month, you will receive a box filled with <span class="text-primary">real</span> local goods, made by <span class="text-primary">real</span> Canadian business owners.</p>
@@ -23,7 +23,7 @@
         <div class="block lg:flex relative">
             <div class="bg-gray-100 py-10 lg:py-20 lg:w-1/2">
                 <div class="container mx-auto block px-4 lg:px-16">
-                    <h2 class="text-2xl lg:text-4xl mb-6 inline-block border-b-2"><strong class="text-primary">Proudly</strong> Canadian 🇨🇦</h2>
+                    <h2 class="text-lg lg:text-4xl mb-6 inline-block border-b-2"><strong class="text-primary">Proudly</strong> Canadian 🇨🇦</h2>
                     <p class="mb-3 leading-loose">Dandelion on the Prairie is a company that curates <strong class="text-primary">Canadian made</strong> and <strong class="text-primary">sustainably sourced</strong> products. Here we believe that that we should support other Canadian companies who also have the same views.</p>
                     <p class="mb-3 leading-loose">Supporting Canadian businesses we can contribute back to our own economy and support each other. By choosing ethically & sustainably made products we can also support a better and healthier Earth for our kids, grandkids and future generations.</p>
                     <p class="mb-3 leading-loose">Helping you make small changes that can lead to bigger changes. By helping these Canadian businesses we also become aware as consumers about where our products come from and how they are made.</p>
@@ -81,7 +81,7 @@
             </div>
             <div class="bg-gray-100 py-10 lg:py-20 lg:w-1/2">
                 <div class="container mx-auto block px-4 lg:px-16">
-                    <h2 class="text-2xl lg:text-4xl mb-6 inline-block border-b-2"><strong class="text-primary">About</strong> Dandelion on the Prairie</h2>
+                    <h2 class="text-lg lg:text-4xl mb-6 inline-block border-b-2"><strong class="text-primary">About</strong> Dandelion on the Prairie</h2>
                     <p class="mb-3 leading-loose">I am a busy mother of four beautiful children. We live in a small, small, small, northern Alberta community. Both my husband and I, our parents, and our grandparents, call this home. My husband and I have known each other since grade two. We graduated together, along  with 10 other students in our class.</p>
                     <p class="mb-3 leading-loose">Moose, bear, fox, and other wildlife are constantly in our back yard and they love my chickens! Ah, life on the prairie! I've always loved wildflowers. The one, that is always in my yard, is the famous, bright yellow dandelion. My brother in-law has nicknamed me, Little House  on the Prairie,  for a number of valid reasons!</p>
                     <p class="mb-3 leading-loose">I recently had an idea! I believe that Canada needs its own subscription box, filled with Canadian made products! An idea was born and a name finally came to me; Dandelion on the Prairie. Here, I will try to source Canadian made products that are sustainable and ethically made or natural. Three to five items will be shipped to you monthly. Your wait time will be minimal!</p>
