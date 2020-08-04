@@ -16,7 +16,8 @@
                 <p class="mb-3 leading-loose">Canada needs its own subscription box, and it needs to be filled with Canadian made, sustainably developed products.</p>
                 <p class="text-xl font-bold text-primary mb-3">Meet Dandelion on the Prairie.</p>
                 <p class="mb-6 leading-loose">Created by Brittany Dolen, Dandelion on the Prairie is a monthly, carefully curated subscription box. Each month, you will receive a box filled with <span class="text-primary">real</span> local goods, made by <span class="text-primary">real</span> Canadian business owners.</p>
-                <a href="#sign-up" class="inline-block bg-primary text-white font-bold px-5 py-3 rounded hover:bg-secondary">Subscribe to our email list</a>
+                <a href="#sign-up" class="inline-block bg-primary text-white font-bold px-5 py-3 rounded hover:bg-secondary mb-8">Subscribe to our email list</a>
+                <p><small><strong>**NOTE:</strong> currently only shipping in Canada.</small></p>
             </div>
         </div>
 
@@ -37,20 +38,18 @@
             </div>
         </div>
 
-        <div class="py-5 bg-primary text-center mb-3 lg:mb-10">
+        <div class="py-5 bg-primary text-center mb-6 lg:mb-10">
             <h3 class="text-white text-2xl lg:text-4xl">Sign up for updates!</h3>
         </div>
 
         <div class="container ml-auto mr-auto px-4 lg:px-16 mb-6 lg:mb-20" id="sign-up">
-            <p class="mb-3 text-center text-xl">The first 100 people to submit their email will be entered for a chance to win 6 months subscription to Dandelion on the Prairie!</p>
+            <p class="mb-3 text-center">The first 100 people to submit their email will be entered for a chance to win 6 months subscription to Dandelion on the Prairie!</p>
             <!-- Begin Mailchimp Signup Form -->
             <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
 
             <div id="mc_embed_signup">
                 <form action="https://gmail.us10.list-manage.com/subscribe/post?u=ba4015e3fea11713d4549488f&amp;id=ade56fb97d" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
                     <div id="mc_embed_signup_scroll">
-                        <h2 class="text-2xl lg:text-4xl mb-3">Sign up for a chance to win 6 months subscription!</h2>
-                        <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
                         <div class="mc-field-group">
                             <label for="mce-EMAIL">Email Address  <span class="asterisk">*</span>
                             </label>
@@ -65,6 +64,7 @@
                             <div class="response" id="mce-success-response" style="display:none"></div>
                         </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
                         <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_ba4015e3fea11713d4549488f_ade56fb97d" tabindex="-1" value=""></div>
+                        <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
                         <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
                     </div>
                 </form>
@@ -99,37 +99,37 @@
 </template>
 
 <script>
-    import backgroundUrl from '~/assets/images/dandelion.jpg';
-    import field from '~/assets/images/field.jpg';
-    import brittany from '~/assets/images/brittany.jpg';
-    import dandelion from '~/assets/images/dandelion2.jpg';
-    import ogImage from '~/assets/images/social-share.jpg';
+import backgroundUrl from '~/assets/images/dandelion.jpg';
+import field from '~/assets/images/field.jpg';
+import brittany from '~/assets/images/brittany.jpg';
+import dandelion from '~/assets/images/dandelion2.jpg';
+import ogImage from '~/assets/images/social-share.jpg';
 
-    export default {
-        data() {
-            return {
-                backgroundUrl,
-                field,
-                brittany,
-                dandelion,
-            }
-        },
-        head() {
-            return {
-                title: 'Dandelion on the Prairie',
-                meta: [
-                    {
-                        hid: 'description',
-                        name: 'description',
-                        content: 'Dandelion on the Prairie is a company that curates Canadian made and sustainably sourced products. Here we believe that that we should support other Canadian companies who also have the same views.'
-                    },
-                    {
-                        hid: 'og:image',
-                        name: 'og:image',
-                        content: process.env.baseUrl + ogImage
-                    }
-                ]
-            }
-        },
-    }
+export default {
+    data() {
+        return {
+            backgroundUrl,
+            field,
+            brittany,
+            dandelion,
+        }
+    },
+    head() {
+        return {
+            title: 'Dandelion on the Prairie',
+            meta: [
+                {
+                    hid: 'description',
+                    name: 'description',
+                    content: 'Dandelion on the Prairie is a company that curates Canadian made and sustainably sourced products. Here we believe that that we should support other Canadian companies who also have the same views.'
+                },
+                {
+                    hid: 'og:image',
+                    name: 'og:image',
+                    content: process.env.baseUrl + ogImage
+                }
+            ]
+        }
+    },
+}
 </script>
