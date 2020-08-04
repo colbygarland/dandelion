@@ -1,4 +1,4 @@
-import ogImage from "assets/images/social-share.jpg";
+import ogImage from "~/assets/images/social-share.jpg";
 
 export default {
     env: {
