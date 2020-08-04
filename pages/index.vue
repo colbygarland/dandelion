@@ -1,7 +1,7 @@
 <template>
     <div>
 
-        <a href="#sign-up" class="text-white font-bold bg-primary py-3 block text-center hover:bg-secondary">Sign up now!</a>
+        <a href="#sign-up" class=" font-body text-white font-bold bg-primary py-3 block text-center hover:bg-secondary">Sign up now!</a>
 
         <header class="py-40 lg:py-64 text-center bg-cover shadow bg-no-repeat bg-center" :style="{ backgroundImage: `url(${dandelion})` }">
             <h1 class="text-white">
