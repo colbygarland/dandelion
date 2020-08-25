@@ -12,7 +12,7 @@
                 <h2 class="text-lg lg:text-4xl mb-6 inline-block border-b-2"><strong class="text-primary">Canadian Made</strong> Subscription Boxes</h2>
                 <p class="mb-3 leading-loose">Canada needs its own subscription box, and it needs to be filled with Canadian made products.</p>
                 <p class="text-xl font-bold text-primary mb-3">Meet Dandelion on the Prairie.</p>
-                <p class="mb-6 leading-loose">Created by Brittany Dolen, Dandelion on the Prairie is a monthly, carefully curated subscription box. Each month, you will receive a box filled with <span class="text-primary">real</span> local goods, made by <span class="text-primary">real</span> Canadian business owners.</p>
+                <p class="mb-6 leading-loose">Created by Brittany Dolen, Dandelion on the Prairie is a monthly, carefully curated subscription box. Created for Canadian women, each month you will receive a box filled with <span class="text-primary">real</span> local goods, made by <span class="text-primary">real</span> Canadian business owners.</p>
                 <a href="#sign-up" class="inline-block bg-primary text-white font-bold px-5 py-3 rounded hover:bg-secondary mb-8">Subscribe to our email list</a>
                 <p><small><strong>**NOTE:</strong> currently only shipping in Canada.</small></p>
             </div>
