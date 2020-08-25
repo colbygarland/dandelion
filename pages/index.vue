@@ -129,11 +129,6 @@ export default {
                     property: 'og:image',
                     content: process.env.baseUrl + ogImage
                 },
-                {
-                    hid: 'image',
-                    property: 'image',
-                    content: process.env.baseUrl + ogImage
-                }
             ]
         }
     },
