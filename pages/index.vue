@@ -99,7 +99,17 @@
             </div>
         </div>
 
-        <footer class="bg-primary h-6 block"></footer>
+
+        <footer class="p-3 bg-primary text-white">
+            <div class="container mx-auto px-6 prose max-w-none text-center">
+                <p>
+                    <small class="text-white">
+                        &copy;2020 Dandelion on the Prairie. All rights reserved<span class="hidden md:inline-block mx-2">&bull;</span> <br class="md:hidden" />
+                        Website by <a href="https://colbygarland.ca/?utm_source=website&utm_medium=app&utm_campaign=dandelion" target="_blank">Colby Garland</a>
+                    </small>
+                </p>
+            </div>
+        </footer>
     </div>
 </template>
 
