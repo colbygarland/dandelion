@@ -128,6 +128,11 @@ export default {
                     hid: 'og:image',
                     name: 'og:image',
                     content: process.env.baseUrl + ogImage
+                },
+                {
+                    hid: 'image',
+                    name: 'image',
+                    content: process.env.baseUrl + ogImage
                 }
             ]
         }
