@@ -77,6 +77,8 @@
                 <h2 class="text-lg lg:text-4xl mb-6 inline-block border-b-2">What's in the box?</h2>
                 <p class="mb-3 leading-loose">Our subscription is (for now!) targeted towards Canadian women. We would love to curate a box for men as well!</p>
                 <p class="mb-3 leading-loose">The box contains anything from candles and treats, to cleaning and self care. Basically, if a product fits the theme of the box for that month, it is made in Canada, and it fits in the box, it can be in there!</p>
+                <h2 class="text-lg lg:text-4xl mb-6 inline-block border-b-2">How much will the subscription cost?</h2>
+                <p class="mb-3 leading-loose">The subscription will be a monthly cost of <strong>$49.99</strong> including shipping.</p>
             </div>
         </div>
 
