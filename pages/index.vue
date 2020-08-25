@@ -1,13 +1,10 @@
 <template>
     <div class="font-body">
 
-        <a href="#sign-up" class="text-white font-bold bg-primary py-3 block text-center hover:bg-secondary">Sign up now!</a>
+        <a href="#sign-up" class="text-white font-bold bg-secondary py-3 block text-center hover:bg-primary">Sign up now!</a>
 
-        <header class="py-40 lg:py-64 text-center bg-cover shadow bg-no-repeat bg-center" :style="{ backgroundImage: `url(${dandelion})` }">
-            <h1 class="text-white">
-                <span class="font-script text-8xl block lg:text-10xl">Dandelion</span>
-                <span class="text-4xl lg:text-6xl">on the Prairie</span>
-            </h1>
+        <header class="py-40 lg:h-screen text-center bg-cover shadow bg-no-repeat bg-center flex items-center justify-center" :style="{ backgroundImage: `url(${dandelion})` }">
+            <img class="lg:h-64" :src="logo" alt="Dandelion on the Prairie" />
         </header>
 
         <div class="px-4 lg:px-16 py-10 lg:py-20">
@@ -25,7 +22,7 @@
             <div class="bg-gray-100 py-10 lg:py-20 lg:w-1/2">
                 <div class="container mx-auto block px-4 lg:px-16">
                     <h2 class="text-lg lg:text-4xl mb-6 inline-block border-b-2"><strong class="text-primary">Proudly</strong> Canadian 🇨🇦</h2>
-                    <p class="mb-3 leading-loose">Dandelion on the Prairie is a company that curates <strong class="text-primary">Canadian made</strong> and <strong class="text-primary">sustainably sourced</strong> products. Here we believe that that we should support other Canadian companies who also have the same views.</p>
+                    <p class="mb-3 leading-loose">Dandelion on the Prairie is a company that curates <strong class="text-primary">Canadian made</strong> products. Here we believe that that we should support other Canadian companies who also have the same views.</p>
                     <p class="mb-3 leading-loose">Supporting Canadian businesses we can contribute back to our own economy and support each other. By choosing ethically & sustainably made products we can also support a better and healthier Earth for our kids, grandkids and future generations.</p>
                     <p class="mb-3 leading-loose">Helping you make small changes that can lead to bigger changes. By helping these Canadian businesses we also become aware as consumers about where our products come from and how they are made.</p>
                     <div class="lg:hidden">
@@ -86,7 +83,7 @@
                     <p class="mb-3 leading-loose">Moose, bear, fox, and other wildlife are constantly in our back yard and they love my chickens! Ah, life on the prairie! I've always loved wildflowers. The one, that is always in my yard, is the famous, bright yellow dandelion. My brother in-law has nicknamed me, Little House  on the Prairie,  for a number of valid reasons!</p>
                     <p class="mb-3 leading-loose">I recently had an idea! I believe that Canada needs its own subscription box, filled with Canadian made products! An idea was born and a name finally came to me; Dandelion on the Prairie. Here, I will try to source Canadian made products that are sustainable and ethically made or natural. Three to five items will be shipped to you monthly. Your wait time will be minimal!</p>
                     <p class="mb-3 leading-loose">I, along with my tech savvy brother in-law, Colby, would like to welcome you to the Dandelion on the Prairie family. Stayed tuned for our launch date!</p>
-                    <p class="mb-3 lg:text-xl"><strong class="text-primary">- Brittany</strong></p>
+                    <img :src="sig" alt="Brittany signature" class="w-32 mt-6" />
                     <div class="lg:hidden">
                         <img class="block mx-auto" :src="brittany" alt="Brittany Dolen" />
                     </div>
@@ -103,7 +100,9 @@ import backgroundUrl from '~/assets/images/dandelion.jpg';
 import field from '~/assets/images/field.jpg';
 import brittany from '~/assets/images/brittany.jpg';
 import dandelion from '~/assets/images/dandelion2.jpg';
-import ogImage from '~/assets/images/social-share.jpg';
+import ogImage from '~/assets/images/social.jpg';
+import logo from '~/assets/images/Dandelion-on-the-Prairie.svg';
+import sig from '~/assets/images/brittany-sig.png';
 
 export default {
     data() {
@@ -112,6 +111,8 @@ export default {
             field,
             brittany,
             dandelion,
+            logo,
+            sig,
         }
     },
     head() {
