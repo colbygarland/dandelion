@@ -123,11 +123,6 @@ export default {
                     name: 'description',
                     content: 'Dandelion on the Prairie is a company that curates Canadian made and sustainably sourced products. Here we believe that that we should support other Canadian companies who also have the same views.'
                 },
-                {
-                    hid: 'og:image',
-                    property: 'og:image',
-                    content: 'https://dandelionontheprairie.ca/social.jpg'
-                },
             ]
         }
     },
