@@ -35,42 +35,50 @@
             </div>
         </div>
 
-        <div class="py-5 bg-primary text-center mb-6 lg:mb-10">
+        <div class="py-5 bg-primary text-center mb-6 lg:mb-10" id="sign-up">
             <h3 class="text-white text-2xl lg:text-4xl">Sign up for updates!</h3>
         </div>
 
-        <div class="container ml-auto mr-auto px-4 lg:px-16 mb-6 lg:mb-20" id="sign-up">
-            <p class="mb-3 text-center">The first 100 people to submit their email will be entered for a chance to win 6 months subscription to Dandelion on the Prairie!</p>
-            <!-- Begin Mailchimp Signup Form -->
-            <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
-
-            <div id="mc_embed_signup">
-                <form action="https://gmail.us10.list-manage.com/subscribe/post?u=ba4015e3fea11713d4549488f&amp;id=ade56fb97d" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-                    <div id="mc_embed_signup_scroll">
-                        <div class="mc-field-group">
-                            <label for="mce-EMAIL">Email Address  <span class="asterisk">*</span>
-                            </label>
-                            <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+        <div class="container ml-auto mr-auto px-4 lg:px-16 mb-6 lg:mb-20">
+            <div class="md:max-w-lg md:mx-auto">
+                <p class="mb-3 text-center">The first 100 people to submit their email will be entered for a chance to win 6 months subscription to Dandelion on the Prairie!</p>
+                <!-- Begin Mailchimp Signup Form -->
+                <div id="mc_embed_signup">
+                    <form action="https://gmail.us10.list-manage.com/subscribe/post?u=ba4015e3fea11713d4549488f&amp;id=ade56fb97d" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                        <div id="mc_embed_signup_scroll">
+                            <div class="mb-6">
+                                <label for="mce-EMAIL" class="block text-gray-700 text-sm font-bold mb-2">Email Address  <span class="text-red-600">*</span></label>
+                                <input required="true" type="email" value="" name="EMAIL" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="mce-EMAIL" placeholder="Email address" />
+                            </div>
+                            <div class="mb-6">
+                                <label for="mce-FNAME" class="block text-gray-700 text-sm font-bold mb-2">First Name </label>
+                                <input type="text" value="" name="FNAME" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="mce-FNAME" placeholder="First name"/>
+                            </div>
+                            <div class="clear">
+                                <button class="bg-primary hover:bg-secondary text-white inline-block font-bold px-5 py-3 rounded mb-8 transition-all duration-200 ease-in-out" type="submit" name="subscribe" id="mc-embedded-subscribe">Subscribe</button>
+                            </div>
+                            <div class="indicates-required">
+                                <small><span class="text-red-600">*</span> indicates required</small>
+                            </div>
+                            <div id="mce-responses" class="clear">
+                                <div class="response" id="mce-error-response" style="display:none"></div>
+                                <div class="response" id="mce-success-response" style="display:none"></div>
+                            </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                            <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_ba4015e3fea11713d4549488f_ade56fb97d" tabindex="-1" value=""></div>
                         </div>
-                        <div class="mc-field-group">
-                            <label for="mce-FNAME">First Name </label>
-                            <input type="text" value="" name="FNAME" class="" id="mce-FNAME">
-                        </div>
-                        <div id="mce-responses" class="clear">
-                            <div class="response" id="mce-error-response" style="display:none"></div>
-                            <div class="response" id="mce-success-response" style="display:none"></div>
-                        </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-                        <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_ba4015e3fea11713d4549488f_ade56fb97d" tabindex="-1" value=""></div>
-                        <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
-                        <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
-                    </div>
-                </form>
+                    </form>
+                </div>
+                <!--End mc_embed_signup-->
             </div>
-            <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
-            <!--End mc_embed_signup-->
         </div>
 
-
+        <div class="px-4 lg:px-16 py-10 lg:py-20 bg-gray-200">
+            <div class="container mx-auto">
+                <h2 class="text-lg lg:text-4xl mb-6 inline-block border-b-2">What's in the box?</h2>
+                <p class="mb-3 leading-loose">Our subscription is (for now!) targeted towards Canadian women. We would love to curate a box for men as well!</p>
+                <p class="mb-3 leading-loose">The box contains anything from candles and treats, to cleaning and self care. Basically, if a product fits the theme of the box for that month, it is made in Canada, and it fits in the box, it can be in there!</p>
+            </div>
+        </div>
 
         <div class="block lg:flex relative">
             <div class="hidden lg:block w-1/2 relative">
