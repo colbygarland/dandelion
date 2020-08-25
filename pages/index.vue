@@ -100,7 +100,6 @@ import backgroundUrl from '~/assets/images/dandelion.jpg';
 import field from '~/assets/images/field.jpg';
 import brittany from '~/assets/images/brittany.jpg';
 import dandelion from '~/assets/images/dandelion2.jpg';
-import ogImage from '~/assets/images/social.jpg';
 import logo from '~/assets/images/Dandelion-on-the-Prairie.svg';
 import sig from '~/assets/images/brittany-sig.png';
 
